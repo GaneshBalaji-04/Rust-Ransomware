@@ -24,7 +24,7 @@ Rust compiles to **native machine code**, meaning the final `.exe` file can run 
   ```
   target/release/executable.exe
   ```
-  
+
 - Since Rust **statically links** most of the dependencies, the final executable is often **self-contained** and **does not need Rust installed on the target system.**
 
 # 📦 Required Libraries
@@ -58,3 +58,8 @@ The following libraries are used in this project:
 4. Run the `.exe` file.
 
 💡 Feel free to fork this repository and modify it as needed! 🎯
+
+## 📝 License  
+
+This project is licensed under the **MIT License**. See the [LICENSE](./LICENSE) file for more details.  
+Copyright (c) 2024 Ganesh Balaji V and Dharineesh J.
