@@ -18,11 +18,13 @@ Rust compiles using **LLVM**, introducing additional complexity and optimization
 # 🚀 Standalone Executable Advantage
 Rust compiles to **native machine code**, meaning the final `.exe` file can run on Windows **without requiring the Rust compiler**.
 
-- The `--release` flag ensures an optimized and standalone executable:
+- The `--release` flag ensures an optimized and standalone executable.
+
 - The compiled `.exe` will be located in:
   ```
   target/release/executable.exe
   ```
+  
 - Since Rust **statically links** most of the dependencies, the final executable is often **self-contained** and **does not need Rust installed on the target system.**
 
 # 📦 Required Libraries
@@ -44,12 +46,15 @@ The following libraries are used in this project:
     git clone https://github.com/GaneshBalaji-04/Rust-Ransomware.git
     cd Rust-Ransomware
     ```
+
 2. If using a ZIP file, extract it into your preferred folder.
     - For more fun, **run the server on the host OS** while the **client runs inside the virtual machine.**
+
 3. **Compile the executable:**
     ```
     cargo build --release
     ```
+
 4. Run the `.exe` file.
 
 💡 Feel free to fork this repository and modify it as needed! 🎯
