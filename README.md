@@ -61,5 +61,5 @@ The following libraries are used in this project:
 
 ## 📝 License  
 
-This project is licensed under the **MIT License**. See the LICENSE file for more details.  
+This project is licensed under the **MIT License**. See the LICENSE.txt file for more details.  
 Copyright (c) 2024 Ganesh Balaji V and Dharineesh J.
